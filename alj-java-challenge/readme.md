@@ -61,7 +61,7 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 ### Further Enhancement/Scope
  - Actuator framework customization.
- - Monitoring framework.
+ - Monitoring framework (Grafana, Jennifer).
  - Spring cloud support.
  - CI/CD.
  - Integration testing.
@@ -69,4 +69,9 @@ Application (with the embedded H2 database) is ready to be used ! You can access
  - Spring config server.
  - Containerization(Docker/K8s).
  - SonarQube/SonarLint integration for code coverage/code optimization.
+
+### About Myself
+Hi! This is Sajib. I have been working with Java + Spring Framework over 4 years now. Although I have some built Data 
+analytics platforms with Python + Django Framework, but most of my professional experiences on building backend 
+microservices with Java and Spring Tech stack. 
 
