@@ -31,17 +31,17 @@ public class ApiRuntimeException extends RuntimeException {
     }
 
     public ApiRuntimeException(String errorMessage, HttpStatus errorStatus, String detailedErrorMessage) {
-        this(errorMessage,errorStatus);
+        this(errorMessage, errorStatus);
         this.detailedErrorMessage = detailedErrorMessage;
     }
 
     public ApiRuntimeException(String errorMessage, HttpStatus errorStatus, ApiErrorResponse apiErrorResponse) {
-        this(errorMessage,errorStatus);
+        this(errorMessage, errorStatus);
         this.apiErrorResponse = apiErrorResponse;
     }
 
     public ApiRuntimeException(String errorMessage, HttpStatus errorStatus, Throwable exception) {
-        this(errorMessage,errorStatus);
+        this(errorMessage, errorStatus);
         this.detailedErrorMessage = exception.getLocalizedMessage();
     }
 

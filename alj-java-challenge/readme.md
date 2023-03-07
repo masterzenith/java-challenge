@@ -52,7 +52,7 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - Swagger configuration for API documentation.
 - WebMVC configuration and Interceptors to enable CorrelationId injection in each request.
 - Custom exception handlers and API responses and Util classes.
-- Actuator framework support(out of the box features enabled) for Application health check.
+- Actuator framework support for Application health check.
 - Logging using Sl4j framework.
 - JUnits support for implementation and business logic.
 - Profile based configuration file.
@@ -62,13 +62,16 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 ### Further Enhancement/Scope
  - Actuator framework customization.
  - Monitoring framework (Grafana, Jennifer).
- - Spring cloud support.
  - CI/CD.
  - Integration testing.
  - UI integration.
  - Spring config server.
  - Containerization(Docker/K8s).
  - SonarQube/SonarLint integration for code coverage/code optimization.
+ - Flight Recorder to collect data by continuously monitoring the JVM and recording events into a circular buffer.
+ - JMeter for load testing, functional testing, and performance testing.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 ### About Myself
 Hi! This is Sajib. I have been working with Java + Spring Framework over 4 years now. Although I have some built Data 
