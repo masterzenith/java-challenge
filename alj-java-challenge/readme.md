@@ -60,6 +60,7 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 ----------------------------------------------------------------------------
 
 ### Further Enhancement/Scope
+ - UML/Sequence Diagram for endpoints Design flow.
  - Actuator framework customization.
  - Monitoring framework (Grafana, Jennifer).
  - CI/CD.
